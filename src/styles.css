@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --darkblue: #2b3051;
+  --white: #ffffff;
+  --regularblue: #4c7df6;
+  --grayfont: #7591ab;
+  --gold: #cbff00;
+  --bg-color: #2e3d4b;
+  --text-color: #2b3051;
+  --lightblue: #4cdcff;
+  --lightyellow: #fff2cd;
+  --spacegray: #e7e7e7;
+}
+
+.logoimage {
+  max-width: 60px;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  color: var(--grayfont);
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  height: 100%;
+}
+
+.herobackground {
+  background: url(https://res.cloudinary.com/dswjmtfun/image/upload/v1678745712/wcccoding_cwofld.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.APP {
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  height: 100%;
+  margin: 0;
+}
