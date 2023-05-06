@@ -14,7 +14,9 @@
   --lightyellow: #fff2cd;
   --spacegray: #e7e7e7;
 }
-
+.sitelogo {
+  max-width: 190px;
+}
 .logoimage {
   max-width: 60px;
 }
