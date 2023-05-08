@@ -1,0 +1,8 @@
+ 
+/* Responsive styles for devices with screen width smaller than 770px */
+@media screen and (max-width: 809px) {
+ 
+ .mobilecallhide {
+     display:none
+ }
+}
