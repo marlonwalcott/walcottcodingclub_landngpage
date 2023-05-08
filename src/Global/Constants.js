@@ -18,8 +18,8 @@ export const GlobalFooterMain = {
 //Main Logo
 
 export const MAINLOGOURL = {
-  en: "https://res.cloudinary.com/dswjmtfun/image/upload/v1672953167/walcottcodingclub_new-removebg-preview_1_c83crr.png",
-  es: "https://res.cloudinary.com/dswjmtfun/image/upload/v1672953167/walcottcodingclub_new-removebg-preview_1_c83crr.png",
-  fr: "https://res.cloudinary.com/dswjmtfun/image/upload/v1672953167/walcottcodingclub_new-removebg-preview_1_c83crr.png",
+  en: "https://res.cloudinary.com/dswjmtfun/image/upload/v1683557170/walcottcodingclublogo_muxmel.png",
+  es: "https://res.cloudinary.com/dswjmtfun/image/upload/v1683557170/walcottcodingclublogo_muxmel.png",
+  fr: "https://res.cloudinary.com/dswjmtfun/image/upload/v1683557170/walcottcodingclublogo_muxmel.png",
   // ... add more languages as needed
 };

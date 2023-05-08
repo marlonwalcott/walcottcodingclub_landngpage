@@ -14,12 +14,7 @@
   --lightyellow: #fff2cd;
   --spacegray: #e7e7e7;
 }
-.sitelogo {
-  max-width: 190px;
-}
-.logoimage {
-  max-width: 60px;
-}
+
 body {
   font-family: "Poppins", sans-serif;
   color: var(--grayfont);
@@ -50,4 +45,9 @@ body {
 #root {
   height: 100%;
   margin: 0;
+}
+
+.innercontainer {
+  max-width:1200px;
+  margin:auto;
 }
