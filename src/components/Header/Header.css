@@ -1,11 +1,9 @@
-
 /* Header.css */
 .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  
 }
 
 .menu {
@@ -23,8 +21,45 @@
   text-align: right;
 }
 
-
 .sitelogo {
   max-width: 380px;
   min-width: 146px;
+}
+
+.calltoactioncall a {
+  text-decoration: none;
+}
+
+.floatleftcall {
+  float: left;
+}
+
+.darkbackroundcall {
+  background-color: var(--darkblue);
+  color: white;
+}
+
+.lightroundcall {
+  background-color: var( --grayfont);
+  color: var(--darkblue);
+}
+ .darkfontcall {
+  color: var(--darkblue);
+   
+ }
+.whitefontcall {
+  color: white;
+}
+
+.paddingcall {
+  padding: 10px;
+}
+
+.margincall {
+  margin-left: 10px;
+}
+.roundcornercall {
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
 }

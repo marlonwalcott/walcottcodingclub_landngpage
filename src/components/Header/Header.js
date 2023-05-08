@@ -9,7 +9,7 @@ const Header = ({ language }) => {
    return (
 <div className="innercontainer">
   <div className="header-container">
-      <div className="menu">Menu</div>
+      <div className="menu"><i class="fa-solid fa-bars"></i></div>
       <div className="logo-container">
         <img className="sitelogo" src={MAINLOGOURL[language]} alt="Site Logo" />
       </div>
