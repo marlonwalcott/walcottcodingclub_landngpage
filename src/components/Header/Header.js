@@ -2,6 +2,8 @@
 import React from "react";
 import { MAINLOGOURL } from "../../Global/Constants";
 import CallToAction from "./CallToAction";
+import Menu from "./Menu"
+
 import "./Header.css";
 import "./HeaderMobile.css";
 
@@ -9,7 +11,7 @@ const Header = ({ language }) => {
    return (
 <div className="innercontainer">
   <div className="header-container">
-      <div className="menu"><i class="fa-solid fa-bars"></i></div>
+      <Menu/>
       <div className="logo-container">
         <img className="sitelogo" src={MAINLOGOURL[language]} alt="Site Logo" />
       </div>

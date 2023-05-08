@@ -23,7 +23,8 @@
 
 .sitelogo {
   max-width: 380px;
-  min-width: 146px;
+  min-width: 190px;
+  width:70%
 }
 
 .calltoactioncall a {
@@ -40,7 +41,7 @@
 }
 
 .lightroundcall {
-  background-color: var( --grayfont);
+  background-color: var( --lightgray);
   color: var(--darkblue);
 }
  .darkfontcall {
