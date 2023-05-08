@@ -1,0 +1,30 @@
+
+/* Header.css */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  
+}
+
+.menu {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.logo-container {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.cta-container {
+  flex-grow: 1;
+  text-align: right;
+}
+
+
+.sitelogo {
+  max-width: 380px;
+  min-width: 146px;
+}

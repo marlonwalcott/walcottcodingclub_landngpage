@@ -4,10 +4,12 @@ class CallToAction extends Component {
   render() {
     return (
       <div className="navbar-text">
+        <i class="fa fa-search" aria-hidden="true"></i>
         <a href="http://walcottcodingclub.com/signup/index.html">
-          <button type="button" className="btn btn-primary">
-            Free Coding Challenge
-          </button>
+          Free Trial 
+        </a>
+          <a href="http://walcottcodingclub.com/signup/index.html">
+         Enrol
         </a>
       </div>
     );
