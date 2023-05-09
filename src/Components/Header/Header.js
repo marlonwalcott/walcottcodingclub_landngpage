@@ -2,7 +2,7 @@
 import React from "react";
 import { MAINLOGOURL } from "../../Global/Constants";
 import CallToAction from "./CallToAction";
-import Menu from "./Menu"
+import Menu from "../Menu/Menu"
 
 import "./Header.css";
 import "./HeaderMobile.css";
