@@ -1,7 +1,6 @@
 // Menu.js
 import React, { Component } from "react";
-import "./Header.css";
-import "./HeaderMobile.css";
+
 
 class Menu extends Component {
   render() {
