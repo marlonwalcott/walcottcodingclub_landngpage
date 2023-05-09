@@ -4,6 +4,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
+
+ 
 }
 
 .menu {
@@ -63,4 +65,9 @@
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   border-radius: 30px;
+}
+
+.navbar-text {
+  max-width:333px;
+  text-align:right
 }
