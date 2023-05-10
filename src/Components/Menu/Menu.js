@@ -11,13 +11,13 @@ const Menu = () => {
   return (
     <div className="menuContainer">
       <button onClick={toggleMenu}>
-        {isOpen ? 'Close menu' : 'Open menu'}
+        {isOpen ? 'Menu' : 'Menu'}
       </button>
       
       <div className={`fullscreenMenu ${isOpen ? 'open' : ''}`}>
         {isOpen && (
           <>
-            <button className="closeButton" onClick={toggleMenu}>X</button>
+            <button className="closeButton" onClick={toggleMenu}>X Close</button>
             <ul>
               <li>Menu Item 1</li>
               <li>Menu Item 2</li>
