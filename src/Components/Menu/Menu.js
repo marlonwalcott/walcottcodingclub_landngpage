@@ -1,15 +1,34 @@
-// Menu.js
-import React, { Component } from "react";
+import React, { useState } from 'react';
+import './Menu.css';
 
+const Menu = () => {
+  const [isOpen, setIsOpen] = useState(false);
 
-class Menu extends Component {
-  render() {
-    return (
-   <div className="menu">
-        <i class="fa-solid fa-bars"></i> <span class="mobilecallhide">Menu</span>
- </div>
-    );
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
   }
+
+  return (
+    <div className="menuContainer">
+      <button onClick={toggleMenu}>
+        {isOpen ? 'Close menu' : 'Open menu'}
+      </button>
+      
+      <div className={`fullscreenMenu ${isOpen ? 'open' : ''}`}>
+        {isOpen && (
+          <>
+            <button className="closeButton" onClick={toggleMenu}>X</button>
+            <ul>
+              <li>Menu Item 1</li>
+              <li>Menu Item 2</li>
+              <li>Menu Item 3</li>
+              <li>Menu Item 4</li>
+            </ul>
+          </>
+        )}
+      </div>
+    </div>
+  );
 }
 
 export default Menu;
