@@ -6,12 +6,11 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 80%;
+  width: 90%;
   height: 100%;
   background: rgba(0, 0, 0, 1);
   color: white;
   display: flex;
- 
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.5s ease;
@@ -24,12 +23,12 @@
 
 .fullscreenMenu ul {
   list-style: none;
-  margin-top:60px
+  margin-top: 60px;
 }
 
 .fullscreenMenu li {
   margin: 20px 0;
-  font-size: 2em;
+  font-size: 1rem;
 }
 
 .closeButton {
@@ -39,6 +38,6 @@
   background: none;
   border: none;
   color: white;
-  font-size: 2em;
+  font-size: 1rem;
   cursor: pointer;
 }
